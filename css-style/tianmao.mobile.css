@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.bigboss {
+    width: 100%;
+}
+/*top*/
+.top {
+    height: 77px;
+    width: 100%;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF0036;
+}
+.top span {
+    color: #fff;
+    font-size: 40px;
+    margin-left: -55px;
+} 
+.top img {
+    width: 208.56px;
+    height: 36.08px;
+}
+.top-text {
+    font-size: 25px;
+    color: #fff;
+    margin-right: -55px; 
+}
+/*搜索框*/
+.search-box {
+    width: 100%;
+    height: 81px;
+    background-color: #FF0036;
+}
+.search-box-container {
+    width: 625px;
+    height: 63px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin: 0px auto;
+    border-radius: 7.04px;
+    display: flex;
+    align-items: center;
+    padding-left: 17px;
+}
+.search-box img {
+    width: 26.4px;
+    height: 28.16px;
+}
+.search-box span {
+    font-size: 24.64px;
+    color: #B2B2B2;
+    padding-left: 15px;
+}
+/*container-94%开始*/
+.bigboss-container {
+    width: 100%;
+}
+/*分类盒子*/
+.fenlei-box {
+    height: 136px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fenlei-box img {
+    width: 84.48px;
+    height: 84.48px;
+    padding-bottom: 8px;
+}
+.fenlei-box span {
+    font-size: 22.88px;
+    display: inline-block;
+}
+.fenlei-text2 {
+    padding-left: 10px;
+}
+.fenlei-text {
+     padding-left: 20px; 
+}
+/*滑动图片*/
+.hua-img {
+    height: 250px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-top: 10px; 
+}
+.hua-img img {
+    width: 617.76px;
+    height: 232.766px;
+}
+/*阴影图片*/
+.yinyingtu-box {
+    height: 25.5px;
+    width: 100%;
+}
+.yinyingtu-box img {
+    width: 660px;
+    text-align: center;
+    transform: translateY(-15px);
+}
+/*七夕图片*/
+.shiguang-box img {
+    width: 660px;
+}
+
+/* 限时抢购 */
+.xianshishop-box {
+    height: 480px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+.xianshishop-box>div {
+    height: 226px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.xianshishop-top>div,.xianshishop-bottom>div {
+    width: 303px;
+    height: 226px;
+}
+.daojishi-top {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.daojishi-text {
+    font-size: 28.16px;
+    font-weight: bold;
+}
+.daojishi-time {
+    display: flex;
+    width: 150px;
+    height: 43px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+}
+.daojishi-time div {
+    color:#fff;
+    font-size: 23px;
+    background-color: #000;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+}
+.daojishi-time span {
+    font-size: 23px;
+}
+.daojishi-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.daojishi-bottom-img1 img{
+    width: 136px;
+    height: 136px; 
+}
+.daojishi-bottom-img2 img{
+    width: 136px;
+    height: 136px;
+}
+.bgc-text {
+    border: 1px solid #FF3761;
+    color: #FF3761;
+    display: inline-block;
+    font-size: 17.6px;
+    font-weight: bold;
+    height: 21.12px;
+    line-height: 19.36px;
+    border-radius: 1.76px;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+.daojishi-brother {
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.daojishi-brother-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.daojishi-brother-box img {
+    width: 136px;
+    height: 136px;
+}
+.daojishi-brother>span {
+    font-size: 28.16px;
+    font-weight: bold;
+    padding-left: 20px;    
+}
+.bgc-text2 {
+    border: 1px solid #FF3761;
+    color: #FF3761;
+    display: inline-block;
+    font-size: 17.6px;
+    font-weight: bold;
+    height: 21.12px;
+    line-height: 19.36px;
+    border-radius: 1.76px;
+    margin-left: 40px;
+    transform: translateY(-7px);
+}
+.daojishi,.daojishi-brother {
+    background-image: url("../image/bgimg.png")
+}
+/*猜你喜欢*/
+.guess-like {
+    height: 70px;
+    font-size: 31.68px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+/*猜你喜欢-shop*/
+.like-box {
+    display: flex;
+    height: 487px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+}
+.like-box-shop {
+    width: 300px;
+    height: 470px;
+    border: 1.76px solid rgb(237, 237, 237);
+}
+.hongbao-img {
+    width: 299.2px;
+    height: 475px;
+}
+.like-box-img{
+    height: 295px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 25px;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.like-box-img div {
+    width: 243px;
+    height: 243px;
+    margin: 0 auto;
+    
+}
+.like-box-img img {
+    width: 243px;
+    height: 243px;
+}
+.anwen {
+    width: 55px;
+    height: 31px;
+    background-color: #CDA3B1;
+    color: #fff;
+    font-size: 17.6px;
+    text-align: center;
+    line-height: 31px;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.like-box-text {
+    height: 100px;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.like-box-text-zi {
+    font-size: 24.64px;
+    color: rgb(62, 62, 62);
+}
+.like-box-bottom {
+    height: 53px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    position: relative;
+}
+.like-box-price {
+    font-weight: bold;
+    color: red;
+    font-size: 28px;   
+}
+.like-box-like {
+    font-size: 19.36px;
+    color: rgb(255, 0, 54);
+    display: block;
+    width: 90px;
+    height: 40px;
+    border-radius: 20.68px;
+    background-color: rgb(255, 230, 235);
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
